@@ -1,0 +1,13 @@
+{
+  "require": {
+    "php-amqplib/php-amqplib": "^2.11",
+    "fzaninotto/faker": "^1.9",
+    "phpdocumentor/phpdocumentor": "2.*",
+    "vlucas/phpdotenv": "^5.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "RabbitMQ\\": "./"
+    }
+  }
+}

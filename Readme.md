@@ -1,10 +1,10 @@
 # Getting started
 
-run `composer install`
+run `$ composer install`
 
-change `.env` variables
+`$ cp .env.sample .env` and change `.env` variables
 
-run cli command `php Index.php`
+run cli command `$ php Index.php`
 
 the command will create `50,000` fake data, you can change `$limit` in `.env` file
 
